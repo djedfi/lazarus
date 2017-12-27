@@ -29,19 +29,22 @@
       <!-- content -->
       <div class="panel panel-flat">
         <div class="panel-body">
+            <div class="table-responsive">
             <table class="table" id="myTable">
               <thead>
                 <tr>
                   <td>ID</td>
                   <td>Fecha Confirma</td>
-                  <td>Sacerdote Confirma</td>
+                  <td>Sacerdote Encargado</td>
                   <td>Parroquia Confirma</td>
                   <td>Nombre Confirmado</td>
                   <td>Apellido Confirmado</td>
+                  <td>Primer Padrino</td>
                 </tr>
               </thead>
 
             </table>
+            </div>
         </div>
       </div>
       <!--/content -->
@@ -65,6 +68,7 @@
           {data : 'parroquia_confirma'},
           {data : 'nombre_confirmado'},
           {data : 'apellido_confirmado'},
+          {data : 'padrino_1'},
         ]
       });
   });
